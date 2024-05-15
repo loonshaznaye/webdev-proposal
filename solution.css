@@ -1,0 +1,68 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #283618;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.newsletter {
+  flex: 1;
+}
+
+footer {
+  background-color: #283618;
+  position: relative; 
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  text-align: left; 
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 60px; 
+}
+
+.contact-info {
+  width: 100%; 
+  margin-bottom: 40px; 
+}
+
+.contact-info h1 {
+  margin-bottom: 10px; 
+}
+
+.contact-info p {
+  margin-top: 5px; 
+  margin-bottom: 15px; 
+}
+
+.socials {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+}
+
+.logo {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+
+.txt {
+  line-height: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.btn {
+  padding: 0 10px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background-color: #606C38;
+  color: #FFFFFF;
+}
